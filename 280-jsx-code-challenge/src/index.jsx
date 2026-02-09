@@ -11,9 +11,8 @@ const luckyNumber = 7;
 createRoot(document.getElementById("root")).render(
     <div>
         <h1>Hello {name}!</h1>
-        <p>Your lucky number is {luckyNumber}.</p>
-    </div>,
-    document.getElementById("root")
+        <p>Your lucky number is {Math.floor(Math.random()*10)}.</p>
+    </div>
 );
 
 // If you're running this locally in VS Code use the commands:
